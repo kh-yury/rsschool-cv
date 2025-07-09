@@ -36,3 +36,13 @@ function abbrevName(name){
   return(abbrev)
 }
 ```
+Objectives:
+-
+Implemented new procedures and technologies that improved efficiency and streamlined operations.
+
+Languages:
+-
+- Russian - Native
+- English - Intermediate
+
+---
