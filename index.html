@@ -1,13 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cv</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="icon" href="./assets/ico/favicon.ico" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/ico/favicon.ico">
+  <link href="https//fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 </head>
+
 <body>
-  
+
+  <header class="header">
+    <div class="container head-container">
+      <nav class="nav">
+        <ul class="nav-list">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">
+              Contacts
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#summary">
+              Summary
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">
+              Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">
+              Courses
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code">
+              Code
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">
+              Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">
+              Education
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#languages">
+              Languages
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line2"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container main-container">
+
+      <section class="section section-profile" id="profile">
+        <img class="section-profile-logo" src="./assets/img/avatar.jpg" alt="">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">
+            Khajtovich Yury
+          </h1>
+          <h3 class="section-subtitle">Electronics engineer</h3>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-items">
+            Gomel, Belarus
+          </li>
+          <li class="section-item contacts-items">
+            Email: khch.yury@gmail.com
+          </li>
+          <li class="section-item contacts-items">
+            Telegram: @khch_yury
+          </li>
+          <li class="section-item contacts-items">
+            Discord: Yury Khaitovich (@kh-yury)
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I started my career as an electronic engineer, worked in one company for eighteen years. At one fine moment
+          realized that I could not realize myself as a specialist. Now I have changed the organization and direction of
+          professional development. I'm not tired of work! Open to new knowledge.
+        </p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Python Basics, Git, GitHub, VS Code, PyCharm, Adobe Photoshop.
+          </li>
+          <li class="section-item">
+            Assembly of telecommunication cabinets, installation, connection, equipment configuration.
+          </li>
+          <li class="section-item">
+            Laying communication lines, performing crossing operations on station equipment.
+          </li>
+          <li class="section-item">
+            Installation, configuration, connection, maintenance of video surveillance systems based on Dahua
+            Technology, Hikvision, Hiwatch equipment.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-items">
+            Installation and maintenance of PBX communication systems (DECT/ISDN) (completed).
+          </li>
+          <li class="section-item contacts-items">
+            Python. Web application development in Django (completed).
+          </li>
+          <li class="section-item contacts-items">
+            RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre">
+            <code>
+              function abbrevName(name){ 
+                let arr_name = name.split(" ");
+                let abbrev = arr_name.map((word) =>
+                word[0].toUpperCase()).join('.');
+              return(abbrev)
+              }
+            </code>
+          </pre>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-items">
+            <a href="https://kh-yury.github.io/rsschool-cv/">CV Project</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-items">
+            Gomel State Road Construction College.
+          </li>
+          <li class="section-item contacts-items">
+            Belarusian State University of Transport.
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-items">
+            Russian - Native
+          </li>
+          <li class="section-item contacts-items">
+            English - Intermediate
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <ul class="section-list">
+      <li class="section-item contacts-items">
+        <a href="https://github.com/kh-yury/">GitHub</a>
+      </li>
+      <li class="section-item contacts-items">
+        <a href="https://rs.school/courses/javascript-ru">RsSchool</a>
+      </li>
+    </ul>
+  </footer>
+
 </body>
+
 </html>
